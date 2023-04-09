@@ -2,7 +2,7 @@
 -- Only when the email is changed
 
 DELIMITER $$ ;
-CREATE TRIGGER email_trim
+CREATE TRIGGER email_trig
 BEFORE UPDATE ON users
 FOR EACH ROW
 BEGIN
