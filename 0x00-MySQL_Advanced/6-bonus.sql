@@ -1,5 +1,5 @@
 -- Create a stored procedure
--- Adds a new correction to the bonus
+-- Add a new correction to the bonus
 
 DELIMITER $$ ;
 CREATE PROCEDURE AddBonus(IN user_id INT, IN project_name VARCHAR(255), IN score INT)
