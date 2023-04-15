@@ -1,0 +1,3 @@
+// List all the databases found in my local machine
+
+show dbs
